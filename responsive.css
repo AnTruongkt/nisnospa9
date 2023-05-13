@@ -1,0 +1,85 @@
+/* Pc Low */
+@media (max-width: 1200px){
+
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .tips_show_row, 
+    .about_us_row, 
+    .service_row {
+        width: 400px;
+    }
+    #header_nav{
+        display: none;
+    }
+    #header_topbar{
+        height: 76px;
+    }
+    .language_box {
+        margin: 12px 5px;
+    }
+    .header_nav_mobile{
+        margin-top: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav_mobile_symbol{
+        font-size: 40px;
+        text-transform: uppercase;
+        margin: 5px 15px;
+    }
+    .nav_mobile_symbol:hover{
+        cursor: pointer;
+        color: coral;
+
+    }
+    .nav_mobile_box_vietnamese,
+    .nav_mobile_box_english{
+        /* display: flex; */
+        justify-content: flex-end;
+    }
+    .active_box{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .header_nav_list_mobile_vietnamese,
+    .header_nav_list_mobile_english{
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        text-transform: uppercase;
+        color: #fff;
+        /* phải có WIDTH thì backgroud-color mới hiển thị */
+        width: 140px;
+        background-color: rgba(216, 23, 158, 0.6);
+        padding: 15px;
+    }
+    .header_nav_list_mobile_vietnamese .nav_list,
+    .header_nav_list_mobile_english .nav_list{
+        padding: 15px 5px;
+        font-size: 20px;
+    }
+    .language_btn{
+        margin-right: 10px;
+      }
+    .home{
+        scale: 0.45;
+    }
+    /* ẩn đi phần content dịch vụ, thông tin công ty */
+    .mobile_hiden {
+        display: none;
+    }
+  
+}
